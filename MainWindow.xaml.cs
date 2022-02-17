@@ -24,5 +24,16 @@ namespace mindblown
             {
             InitializeComponent();
             }
+        public int i;
+        private void button1_Click(object sender, RoutedEventArgs e)
+            {
+            label1.Content = "Hello world";
+            }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+            {
+             i ++ ;
+            label2.Content = i;
+            }
         }
     }
